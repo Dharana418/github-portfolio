@@ -7,7 +7,7 @@ import {
   FaGitAlt, FaFigma, FaPalette 
 } from 'react-icons/fa';
 import { 
-  SiMongodb, SiExpress, SiSpringboot, SiMysql, 
+  SiMongodb, SiExpress, SiMysql, 
   SiPostgresql, SiTailwindcss, SiPostman 
 } from 'react-icons/si';
 
@@ -31,7 +31,6 @@ const Skills = () => {
         { name: 'Node.js', level: 80, color: 'bg-green-500' },
         { name: 'Express.js', level: 75, color: 'bg-gray-600' },
         { name: 'Java', level: 70, color: 'bg-red-500' },
-        { name: 'Spring Boot', level: 65, color: 'bg-green-600' },
         { name: 'PHP', level: 60, color: 'bg-indigo-500' },
       ]
     },
@@ -62,7 +61,6 @@ const Skills = () => {
     { Icon: FaReact, name: 'React', color: 'text-blue-500' },
     { Icon: FaNodeJs, name: 'Node.js', color: 'text-green-500' },
     { Icon: FaJava, name: 'Java', color: 'text-red-500' },
-    { Icon: SiSpringboot, name: 'Spring Boot', color: 'text-green-600' },
     { Icon: FaPhp, name: 'PHP', color: 'text-indigo-500' },
     { Icon: SiMongodb, name: 'MongoDB', color: 'text-green-600' },
     { Icon: SiMysql, name: 'MySQL', color: 'text-blue-600' },
